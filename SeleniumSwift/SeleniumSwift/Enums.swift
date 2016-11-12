@@ -1,94 +1,94 @@
 enum ScreenOrientation
 {
-    case Portrait
-    case Landscape
-    case Unknown
+    case portrait
+    case landscape
+    case unknown
 }
 
 enum TimeoutType
 {
-    case Implicit
-    case Script
-    case PageLoad
+    case implicit
+    case script
+    case pageLoad
 }
 
 
 enum ApplicationCacheStatus
 {
-    case Uncached
-    case Idle
-    case Checking
-    case Downloading
-    case UpdateReady
-    case Obsolete
+    case uncached
+    case idle
+    case checking
+    case downloading
+    case updateReady
+    case obsolete
 }
 
 enum MouseButton
 {
-    case Left
-    case Middle
-    case Right
+    case left
+    case middle
+    case right
 }
 
 
 enum LogType
 {
-    case Browser
-    case Client
-    case Driver
-    case Server
+    case browser
+    case client
+    case driver
+    case server
 }
 
-func stringForTimeout (timeoutType:TimeoutType) -> String {
+func stringForTimeout (_ timeoutType:TimeoutType) -> String {
     switch timeoutType {
-    case .Implicit:
+    case .implicit:
         return "implicit"
-    case .PageLoad:
+    case .pageLoad:
         return "page load"
-    case .Script:
+    case .script:
         return "script"
     }
 }
 
-func applicationCacheStatusForInt (statusInt:Int) -> ApplicationCacheStatus {
+func applicationCacheStatusForInt (_ statusInt:Int) -> ApplicationCacheStatus {
     switch (statusInt) {
     case 0:
-        return ApplicationCacheStatus.Uncached;
+        return ApplicationCacheStatus.uncached;
     case 1:
-        return ApplicationCacheStatus.Idle;
+        return ApplicationCacheStatus.idle;
     case 2:
-        return ApplicationCacheStatus.Checking;
+        return ApplicationCacheStatus.checking;
     case 3:
-        return ApplicationCacheStatus.Downloading;
+        return ApplicationCacheStatus.downloading;
     case 4:
-        return ApplicationCacheStatus.UpdateReady;
+        return ApplicationCacheStatus.updateReady;
     case 5:
-        return ApplicationCacheStatus.Obsolete;
+        return ApplicationCacheStatus.obsolete;
     default:
-        return ApplicationCacheStatus.Uncached;
+        return ApplicationCacheStatus.uncached;
     }
 }
 
-func intForMouseButton (mouseButton:MouseButton) -> Int {
+func intForMouseButton (_ mouseButton:MouseButton) -> Int {
     switch mouseButton {
-    case .Left:
+    case .left:
         return 0;
-    case .Middle:
+    case .middle:
         return 1;
-    case .Right:
+    case .right:
         return 2;
     }
 }
 
-func stringForLogType (logType:LogType) -> String {
+func stringForLogType (_ logType:LogType) -> String {
     switch logType {
-    case .Browser:
+    case .browser:
         return "browser";
-    case .Client:
+    case .client:
         return "client";
-    case .Driver:
+    case .driver:
         return "driver";
-    case .Server:
+    case .server:
         return "server";
     }
 }

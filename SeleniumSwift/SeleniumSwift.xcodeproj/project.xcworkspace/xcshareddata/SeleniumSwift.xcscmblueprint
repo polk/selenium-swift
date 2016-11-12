@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "932FB18EE3C3EB2EC1A44F14EBF443A77CB0FA54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C2648D93E3DB9804876995452D911FA4E49667C4" : 9223372036854775807,
+    "932FB18EE3C3EB2EC1A44F14EBF443A77CB0FA54" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C530A3C3-B1F5-4F2C-8C79-FCADCADFA47E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C2648D93E3DB9804876995452D911FA4E49667C4" : "selenium-swift\/submodules\/selenium-objective-c\/",
+    "932FB18EE3C3EB2EC1A44F14EBF443A77CB0FA54" : "selenium-swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SeleniumSwift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SeleniumSwift\/SeleniumSwift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/appium\/selenium-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "932FB18EE3C3EB2EC1A44F14EBF443A77CB0FA54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/appium\/selenium-objective-c",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C2648D93E3DB9804876995452D911FA4E49667C4"
+    }
+  ]
+}
